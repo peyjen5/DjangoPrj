@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from posts.models import Post
+from datetime import datetime
 
 
 # Create your views here.
@@ -19,3 +20,10 @@ def index(request):
 
 def about(request):
     return HttpResponse("hello world")
+
+
+def index_use_template(requests):
+    article_records = Post.objects.all()
+    # print(article_records)
+    now = datetime.now()
+    return render(requests, "index.html", locals())
