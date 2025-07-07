@@ -1,0 +1,14 @@
+{
+    "python.pythonPath": "D:/上課專區/興大AI人工智慧與數據分析/人工智慧雲端實務/Django/Django_vm/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "D:/上課專區/興大AI人工智慧與數據分析/人工智慧雲端實務/Django/vm/Lib/site-packages"
+    ],
+    "editor.formatOnSave": true,
+    "editor.fontSize": 16,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.colorTheme": "Visual Studio Dark"
+}
